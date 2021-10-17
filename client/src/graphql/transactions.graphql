@@ -1,0 +1,8 @@
+query Transactions($currency: String!) {
+    transactions(currency: $currency) {
+        id
+        transactionType
+        date
+        amount
+    }
+}

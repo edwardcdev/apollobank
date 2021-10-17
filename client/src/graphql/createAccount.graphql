@@ -1,0 +1,3 @@
+mutation CreateAccount($currency: String!) {
+    createAccount(currency: $currency)
+}

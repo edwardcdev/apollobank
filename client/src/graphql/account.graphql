@@ -1,0 +1,6 @@
+query Account($currency: String!) {
+    account(currency: $currency) {
+        id
+        balance
+    }
+}

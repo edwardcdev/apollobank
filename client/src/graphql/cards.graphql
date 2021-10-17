@@ -1,0 +1,10 @@
+query Cards {
+    cards {
+        id
+        cardNumber
+        pin
+        expiresIn
+        cvv
+        monthlySpendingLimit
+    }
+}

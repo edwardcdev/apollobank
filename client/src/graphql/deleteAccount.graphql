@@ -1,0 +1,3 @@
+mutation DeleteAccount($currency: String!) {
+    deleteAccount(currency: $currency)
+}

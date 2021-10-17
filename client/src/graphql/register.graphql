@@ -1,0 +1,23 @@
+mutation Register(
+    $email: String!
+    $password: String!
+    $firstName: String!
+    $lastName: String!
+    $dateOfBirth: String!
+    $streetAddress: String!
+    $postCode: String!
+    $city: String!
+    $country: String!
+) {
+    register(
+        email: $email
+        password: $password
+        firsName: $firstName
+        lastName: $lastName
+        dateOfBirth: $dateOfBirth
+        streetAddress: $streetAddress
+        postCode: $postCode
+        city: $city
+        country: $country
+    )
+}

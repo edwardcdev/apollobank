@@ -1,0 +1,9 @@
+mutation AddMoney($amount: Float!, $currency: String!) {
+    addMoney(amount: $amount, currency: $currency) {
+        account {
+            id
+            balance
+        }
+        message
+    }
+}

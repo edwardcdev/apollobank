@@ -1,0 +1,10 @@
+query Accounts {
+    accounts {
+        id
+        balance
+        currency
+        sortCode
+        iban
+        bic
+    }
+}

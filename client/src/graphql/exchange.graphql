@@ -1,0 +1,13 @@
+mutation Exchange($selectedAccountCurrency: String!, $toAccountCurrency: String!, $amount: Float!) {
+    exchange(
+        selectedAccountCurrency: $selectedAccountCurrency
+        toAccountCurrency: $toAccountCurrency
+        amount: $amount
+    ) {
+        account {
+            id
+            balance
+        }
+        message
+    }
+}

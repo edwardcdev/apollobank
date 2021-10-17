@@ -1,0 +1,3 @@
+mutation CreateTransaction($currency: String!) {
+    createTransaction(currency: $currency)
+}
