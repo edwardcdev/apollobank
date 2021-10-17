@@ -1,10 +1,8 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/567f877d-68aa-4dac-a323-0fb289d1c73e/deploy-status)](https://app.netlify.com/sites/vigilant-goldwasser-9ac664/deploys)
-
 # apollobank 🚀
 
 A fullstack GraphQL banking application built using React, Node & TypeScript.
 
-## What's included?
+## Functions
 
 - Login/register
 - Dashboard
@@ -17,7 +15,7 @@ A fullstack GraphQL banking application built using React, Node & TypeScript.
 
 ![dashboard](images/dashboard.png)
 
-## Technologies used
+## Specifications
 
 ### Server side
 
@@ -49,5 +47,3 @@ A fullstack GraphQL banking application built using React, Node & TypeScript.
 - [ ] Update the chart on the dashboard to show spending such that the y axis is the users account balance.
 - [ ] Sort transactions by date & sort chart data by date.
 - [ ] Fetch exchange rates from an API.
-
-Flag icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
