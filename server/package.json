@@ -11,7 +11,7 @@
 		"@types/jsonwebtoken": "^8.3.8",
 		"@types/node": "^13.7.7",
 		"minimist": "^1.2.5",
-		"nodemon": "^2.0.2",
+		"nodemon": "^2.0.14",
 		"ts-node": "8.6.2",
 		"typescript": "3.8.3"
 	},
@@ -28,10 +28,10 @@
 		"faker": "^4.1.0",
 		"graphql": "^14.6.0",
 		"jsonwebtoken": "^8.5.1",
-		"pg": "^7.18.2",
+		"pg": "^8.4.0",
 		"reflect-metadata": "^0.1.13",
 		"type-graphql": "^0.17.6",
-		"typeorm": "0.2.24"
+		"typeorm": "^0.2.38"
 	},
 	"scripts": {
 		"start": "ts-node src/index.ts",

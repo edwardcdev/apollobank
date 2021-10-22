@@ -39,7 +39,7 @@ import { Formik, Form } from 'formik';
 import { FormTextField } from '../../components/Forms/FormTextField';
 import { theme, ColorScheme } from '../../utils/theme';
 import { SuccessMessage, ErrorMessage } from '../../components/Alerts/AlertMessage';
-import { changePasswordValidationSchema } from '../../schemas /changePasswordValidationSchema';
+import { changePasswordValidationSchema } from '../../schemas/changePasswordValidationSchema';
 import { ExecutionResultDataDefault, ExecutionResult } from 'graphql/execution/execute';
 import { setAccessToken } from '../../utils/accessToken';
 import { Loading } from '../../components/Loading/Loading';

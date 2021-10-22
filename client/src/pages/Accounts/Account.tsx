@@ -51,7 +51,7 @@ import { ExecutionResult } from 'graphql';
 import { ExecutionResultDataDefault } from 'graphql/execution/execute';
 import { Transactions } from './Transactions/Transactions';
 import { ErrorMessage, SuccessMessage, WarningMessage } from '../../components/Alerts/AlertMessage';
-import { addMoneyValidationSchema } from '../../schemas /addMoneyValidationSchema';
+import { addMoneyValidationSchema } from '../../schemas/addMoneyValidationSchema';
 import { Loading } from '../../components/Loading/Loading';
 
 export const Account: React.FC = () => {
