@@ -184,14 +184,14 @@ export class AccountResolver {
 							}
 
 							// Only update the account balances if the current accounts balance doesn't fall below 0 after applying conversion rates
-							if (currentAccount.balance - Math.round(amountWithConversion) >= 0) {
+							if (currentAccount.balance - amount >= 0) {
 								await Account.update(
 									{ id: toAccount.id },
 									{ balance: toAccount.balance + Math.round(amountWithConversion) }
 								);
 								await Account.update(
 									{ id: currentAccount.id },
-									{ balance: currentAccount.balance - Math.round(amountWithConversion) }
+									{ balance: currentAccount.balance - amount }
 								);
 							} else {
 								throw new Error(ErrorMessages.EXCHANGE);
