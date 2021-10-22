@@ -2,6 +2,43 @@
 
 A fullstack GraphQL banking application built using React, Node & TypeScript.
 
+## Running
+
+### Prerequirement
+- Node.js
+- PostgreSQL 13
+  - create database name "apollobank"
+- Git clone
+```bash
+git clone https://github.com/edwardcdev/apollobank.git
+cd apollobank
+```
+
+### Run backend
+```bash
+cd server
+npm install
+npm start
+```
+- check ormconfig.json file to check or update database connection info.
+
+### Run frontend
+```bash
+cd client
+npm install
+npm start
+```
+- It will server at http://localhost:3000/
+![dashboard](images/first.png)
+
+### Using
+- Register fist.
+![dashboard](images/register.png)
+- And then login.
+![dashboard](images/blank.png)
+- Add account and transaction! Play it!
+![dashboard](images/dashboard.png)
+
 ## Functions
 
 - Login/register
@@ -13,9 +50,7 @@ A fullstack GraphQL banking application built using React, Node & TypeScript.
 - Spending for this month chart
 - Dummy data generator using faker
 
-![dashboard](images/dashboard.png)
-
-## Specifications
+## Tech Stack
 
 ### Server side
 
