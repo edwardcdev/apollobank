@@ -2,6 +2,9 @@
 
 A fullstack GraphQL banking application built using React, Node & TypeScript.
 
+🔥Any contribution activity including finding/report/fixing issues, and pull requests are Welcome!👋 Now it is fully open source!👨 <br/>
+Check the contribution guide [here](CONTRIBUTING.md).
+
 ## Running
 
 ### Prerequirement
