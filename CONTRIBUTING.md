@@ -1,7 +1,7 @@
 # Contributing to Apollobank
 👍🎉 First off, thanks for taking the time to contribute! 🎉👍
-I didn't expect this project get large amount of ⭐ because it is only functional project for my personal practice.
-It is already get over 150 ⭐ in here that's why I am going to make it open source so anyone can attribut on this project.
+<p>I didn't expect this project to get a large amount of ⭐ because it is only a functional project for my personal practice.</p>
+<p>It is already getting over 150 ⭐ in here that's why I am going to make it open source so anyone can attribute it to this project.</p>
 
 I want to make contributing to this project as easy and transparent as possible, whether it's:
 
